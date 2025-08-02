@@ -8,7 +8,9 @@ A Microsoft Edge extension to individually control, mute, and boost the volume o
 - Automatically highlights the current tab
 - Minimal UI with favicons and tab names
 
-## 🛠️ Installation
+## 🛠️ Installation (Microsoft Edge)
+
+## 🛠️ Installation (Manual)
 1. Clone this repository:
   ```bash
   git clone https://github.com/yourusername/edge-master-volume.git
