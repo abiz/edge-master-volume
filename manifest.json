@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Edge Master Volume",
+  "description": "Edge extension to control audio volume per tab",
+  "version": "0.1",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [ "icons/*.svg" ],
+      "matches": [ "<all_urls>" ]
+    }
+  ],
+  "background": {
+    "service_worker": "popup.js"
+  }
+}
